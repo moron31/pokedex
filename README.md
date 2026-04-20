@@ -1,26 +1,80 @@
-# PokeDex - Laboratorio
+# PokeDex - Laboratorio de Sistemas Distribuidos
 
 ## Autor
+
 Jesus Moron Robles
 
-## Descripción
-Aplicación web desarrollada en Angular que consume PokéAPI para mostrar Pokémon.
+## Descripción del Proyecto
 
-## Plataforma de despliegue
-Microsoft Azure App Service
+PokeDex es una aplicación web desarrollada con Angular que consume la API pública PokéAPI para mostrar información detallada de diferentes Pokémon.
 
-## URL pública
-Pega aquí tu URL de Azure
+La aplicación permite visualizar:
 
-## Pasos realizados
+* Nombre del Pokémon
+* Imagen
+* Tipo
+* Estadísticas
+* Información general
 
-1. Descargar proyecto
-2. npm install
-3. npm start
-4. npm run build
-5. Crear App Service en Azure
-6. Subir archivos a Azure
-7. Verificar funcionamiento
+El objetivo del laboratorio fue desplegar esta aplicación en la nube utilizando Microsoft Azure.
 
-## Resultado
-Aplicación desplegada correctamente.
+## Tecnologías Utilizadas
+
+* Angular
+* TypeScript
+* Node.js
+* npm
+* Microsoft Azure App Service
+* GitHub
+* PokéAPI
+
+## Proceso Realizado
+
+### 1. Descarga del Proyecto
+
+Se descargó el archivo `pokedex-angular.zip`.
+
+### 2. Instalación de Dependencias
+
+Se ejecutó:
+
+npm install
+
+### 3. Ejecución Local
+
+Se ejecutó:
+
+npm start
+
+La aplicación quedó disponible en `http://localhost:4200/`
+
+### 4. Compilación del Proyecto
+
+Se ejecutó:
+
+npm run build
+
+Esto creó la carpeta `dist/pokedex-angular`.
+
+### 5. Despliegue en Azure
+
+Se creó un App Service en Microsoft Azure y se subieron los archivos compilados.
+
+### 6. Verificación Final
+
+Se comprobó el acceso público mediante una URL HTTPS.
+
+## URL Pública
+
+https://app-listrace-web-prod-despliegue-moron-e0bafra9htgqd2c7.eastus-01.azurewebsites.net
+
+## Evidencias
+
+* Aplicación funcionando en Azure
+* Repositorio en GitHub
+* Configuración del App Service
+* Escaneo en SecurityHeaders
+
+## Resultado Final
+
+El laboratorio fue completado exitosamente, logrando desplegar una aplicación Angular en la nube.
