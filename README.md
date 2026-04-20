@@ -140,3 +140,20 @@ En la entrega se anexaron capturas de:
 ## Resultado Final
 
 La aplicación fue desplegada correctamente en Microsoft Azure, logrando cumplir con los objetivos del laboratorio y fortaleciendo conocimientos prácticos sobre sistemas distribuidos, despliegue web y computación en la nube.
+
+
+## Evidencias
+
+### Aplicación en ejecución
+<img width="921" height="634" alt="imagen" src="https://github.com/user-attachments/assets/722ab06d-895f-4da4-bdc1-83693230d1be" />
+
+
+### Repositorio GitHub
+<img width="921" height="592" alt="imagen" src="https://github.com/user-attachments/assets/1f153a02-f9ce-47d9-981b-1b0128a94372" />
+
+
+### Configuración en Azure
+<img width="666" height="498" alt="imagen" src="https://github.com/user-attachments/assets/a0798858-e488-4429-a18a-b02332f4e249" />
+
+
+
